@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Gopei - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="about">
+            <h1>Ivan Gopei</h1>
+            <h2>Computer Science Student & Software Developer</h2>
+            <p>Wartburg College | Waverly, IA</p>
+            <p>Email: ivan.gopei@wartburg.edu | Phone: 641-257-7647</p>
+            <p>View my resume: <a href="IvanGopei_Resume.pdf" download>IvanGopei_Resume</a></p>
+            <img src="Ivan-Headshot.jpg" alt="Ivan Profile Picture">
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            
+            <div class="job">
+                <h3>Software Development Intern | VGM Group, Inc.</h3>
+                <p>May 2026 - Aug. 2026 | Waterloo, IA</p>
+                <ul>
+                    <li>Developed an AI-powered provider search feature that translated natural-language questions into Elasticsearch searches.</li>
+                    <li>Built C#/.NET APIs and SQL Server stored procedures to traverse hierarchical data across 40 map categories.</li>
+                    <li>Secured service-to-service communication by migrating Elasticsearch credentials to Azure Key Vault and implementing Azure Managed Identity.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>Information Technology Support Specialist | Zip's AW Direct</h3>
+                <p>May 2024 - Apr. 2025 | New Hampton, IA</p>
+                <ul>
+                    <li>Resolved 10+ hardware/software issues weekly across staff and IT department requests.</li>
+                    <li>Maintained office network infrastructure and system uptime.</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <h3>UI/UX Design Intern | MVI Group GmbH</h3>
+                <p>Jan. 2023 - Mar. 2023 | Wolfsburg, Germany</p>
+                <ul>
+                    <li>Designed Figma layouts for a manufacturing error-detection interface.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+
+            <div class="project">
+                <h3>End-to-End AI Digit Recognizer</h3>
+                <p>Python, TensorFlow, Streamlit</p>
+                <ul>
+                    <li>Trained a TensorFlow CNN achieving 98% accuracy on handwritten digit recognition.</li>
+                    <li>Built and deployed a Streamlit web interface for real-time digit drawing and prediction.</li>
+                </ul>
+            </div>
+
+            <div class="project">
+                <h3>AI Research Agent</h3>
+                <p>Python, Streamlit, Llama 3.2</p>
+                <ul>
+                    <li>Built a local AI research agent using Llama 3.2 to summarize web content without cloud dependency.</li>
+                    <li>Optimized inference speed by selecting a 3B-parameter variant for real-time performance on consumer hardware.</li>
+                </ul>
+            </div>
+        </section>
+
+        <article id="skills">
+            <h2>Technical Skills</h2>
+            <p><strong>Languages:</strong> Python, C#, TypeScript, JavaScript, SQL, Java, C++, Bicep, HTML/CSS, YAML, R, PHP</p>
+            <p><strong>AI & Data:</strong> Large Language Models (LLM), Generative AI, Elasticsearch, TensorFlow, pandas, NumPy</p>
+            <p><strong>Cloud & Infrastructure:</strong> Azure DevOps, Azure Key Vault, Azure AI Foundry, Docker, CI/CD</p>
+            <p><strong>Frameworks & Tools:</strong> .NET, Vue.js, Node.js, Streamlit, Git/GitHub, SSMS, Visual Studio, VS Code, Figma</p>
+        </article>
+
+        <form id="contact">
+            <h2>Get In Touch With Me</h2>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Ivan Gopei.</p>
+        <p>
+            <a href="https://linkedin.com/in/ivangopei" target="_blank">LinkedIn</a> | 
+            <a href="https://github.com/Ivangopei" target="_blank">GitHub</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
